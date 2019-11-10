@@ -20,3 +20,91 @@
 .App-link {
   color: #09d3ac;
 }
+
+body{font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: black;}
+
+
+h1, h2, h3, h4, h5, h6{font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: black;}
+ul, li, span{margin:0px; padding: 0px;}
+img{max-width: 100%;}
+
+p{font-size: 16px; 
+  line-height: 30px;
+}
+
+.about{ 
+  width: 100%; 
+  position: relative;
+}
+.about h1{
+  font-size: 30px;
+}
+.about h1:before {
+  position: absolute;
+  content: '';
+  background: #26cdff;
+  width: 50px;
+  height: 3px;
+  left: 0px;
+  top:40px;
+}
+
+.about ul{list-style: none}
+.about li{line-height: normal;
+  font-size: 16px;
+  padding-bottom: 8px;  
+}
+
+.imgSection{
+  width: 100%;
+}
+
+.features{width: 100%;}
+.features .box{width: 100%; background: #033d75; padding: 15px; transition: 0.3s; }
+.features .box:hover{background: #26cdff;}
+.features .box h1{font-size: 24px; color: #fff; padding: 0px; margin: 0px;}
+
+.serviceTxt{width: 100%; text-align: center; padding: 0 200px; position: relative;}
+.serviceTxt h1{font-size: 30px; color: #000; padding: 0px; margin-bottom: 30px;}
+.serviceTxt h1:before {
+  position: absolute;
+  content: '';
+  background: #26cdff;
+  width: 50px;
+  height: 3px;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 50px;}
+
+  .serviceBox{width: 100%;}
+  .ourService{width: 100%;
+    border: 2px #fff solid;
+    padding: 15px;transition: 0.3s;
+    text-align: center
+  }
+  .ourService:hover{
+    border: 2px #26cdff solid;
+  }
+  .ourService h2{font-size: 20px;}
+
+  .header{box-shadow: 0px 4px 9px #ddd;}
+  .navigation{width: 100%; padding-top: 20px;}
+  .navigation ul{list-style: none; margin-bottom: 0px;}
+  .navigation li{line-height: normal; display: inline-block; font-size: 18px; color: black; padding: 0 15px; font-weight: 600;};
+  .navigation li a{color: black; text-decoration: none;}
+  .companyLogo{width: 70px;}
+
+
+  .footer{width: 100%; background: #033d75; padding: 20px 0px;}
+  .links{width: 100%;}
+  .links h3{font-size: 18px; font-weight: bold; color: #fff;}
+  .links ul{list-style: none;}
+  .links li{line-height: normal; font-size: 16px; color: #fff; padding-top: 10px;}
+  .links p{color: #fff;}
+.sidebar{width: 100%; position: relative;}
+.sidebar h3{font-size: 18px; font-weight: bold; color: #fff;}
+.img-holder{width: 160px; float: left;}
+   
+.sidebar ul{list-style: none;}
+.sidebar li{line-height: normal; font-size: 16px; color: #fff; padding-top: 10px;}
+.title-holder{    padding-left: 20px; width: 70%; float: left;}
