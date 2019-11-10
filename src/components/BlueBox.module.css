@@ -1,0 +1,4 @@
+
+.Box{width: 100%; background: #033d75; padding: 15px; transition: 0.3s; }
+.Box:hover{background: #26cdff;}
+.Box h1{font-size: 24px; color: #fff; padding: 0px; margin: 0px;}

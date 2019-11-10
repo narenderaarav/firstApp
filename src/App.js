@@ -2,8 +2,7 @@ import React from 'react';
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
 import './App.css';
 import About from "./pages/Aboutus";
@@ -25,12 +24,13 @@ function App() {
             <Smallfeatures/> 
             <Ourservice/>
           </Route>
-         <Route path="/">
-          <HomeSlider/>
-        </Route>
+          <Route path="/contact">
+            <h1>Contact Us</h1>
+          </Route>
+          <Route path="/">
+            <HomeSlider/>
+          </Route>
         </Switch>
-        
-      
         <Footer/>
       </Router>
     </div>
