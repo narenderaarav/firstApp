@@ -1,0 +1,9 @@
+.OurService{width: 100%;
+    border: 2px #fff solid;
+    padding: 15px;transition: 0.3s;
+    text-align: center
+  }
+  .OurService:hover{
+    border: 2px #26cdff solid;
+  }
+  .OurService h2{font-size: 20px;}

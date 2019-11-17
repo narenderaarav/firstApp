@@ -1,18 +1,12 @@
 import React, {Component} from "react";
+import PopularPost from "./PopularPost";
+import FootNav from "./FootNav"
 function Footer (){
     return <footer className="footer">
             <div className="container">
                 <div className="row">
                     <div className="col-md-2">
-                        <div className="links">
-                            <h3>Links</h3>
-                            <ul>
-                                <li>Home</li>
-                                <li>About Us</li>
-                                <li>Services</li>
-                                <li>Our Shop</li>
-                            </ul>
-                        </div>
+                        <FootNav/>
                     </div>
 
                      <div className="col-md-4">
@@ -29,38 +23,7 @@ function Footer (){
                     </div>
 
                     <div className="col-md-6">
-                        <div className="sidebar">
-                            <h3>Popular Post</h3>
-                            
-                            <ul>
-                                <li>
-                                    <div className="img-holder">
-                                    <img src={"about.jpg"} />
-                                    </div>
-                                    <div className="title-holder">
-                                    <p>11 Things You Need to Know About Bitcoin – Bare 
-                                       Facts </p>
-                                       <p> December 14, 2017</p>
-
-                                    </div>
-
-                                </li>
-
-                                <li>
-                                    <div className="img-holder">
-                                    <img src={"about.jpg"} />
-                                    </div>
-                                    <div className="title-holder">
-                                    <p>11 Things You Need to Know About Bitcoin – Bare 
-                                       Facts </p>
-                                       <p> December 14, 2017</p>
-
-                                    </div>
-
-                                </li>
-                                
-                            </ul>
-                        </div>
+                        <PopularPost/>
                     </div>
                 </div>
             </div>

@@ -1,6 +1,8 @@
-import React, {Component} from "react";
-class Ourservice extends Component{
-    render(){
+import React, { Component } from "react";
+import OurserviceBox from "./components/OurservicesBox";
+import SeriveConfig from "./configration/service-config"
+class Ourservice extends Component {
+    render() {
         return <div className="container">
             <div className="serviceTxt">
                 <h1> Our Services</h1>
@@ -8,30 +10,16 @@ class Ourservice extends Component{
             </div>
             <div className="serviceBox">
                 <div className="row">
-                    <div className="col-md-4">
-                        <div className="ourService">
-                            <h2>Business Services Consulting</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem dolorem dicta libero veritatis reiciendis  magni.</p>
-                        </div>
-                    </div>
-
-                    <div className="col-md-4">
-                        <div className="ourService">
-                            <h2>Energy Environment Consulting</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem dolorem dicta libero veritatis reiciendis  magni.</p>
-                        </div>
-                    </div>
-
-
-                    <div className="col-md-4">
-                        <div className="ourService">
-                            <h2>Consumer Products Consulting</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem dolorem dicta libero veritatis reiciendis  magni.</p>
-                        </div>
-                    </div>
-
-                    
-                </div>
+                    {
+                        SeriveConfig.map(data => {
+                            return (
+                                <div className="col-md-4" key={data.id}>
+                                    <OurserviceBox heading={data.heading} para={data.para} />
+                                </div>
+                            )
+                        })
+                    } 
+                 </div>
             </div>
         </div>
     }

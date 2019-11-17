@@ -12,6 +12,8 @@ import Menu from "./Menu.js";
 import CompanyLogo from "./CompanyLogo"
 import HomeSlider from "./HomeSlider";
 import Footer from "./Footer";
+import Banner from "./innerBanner/Banner";
+import Contact from "./pages/Contact"
 
 function App() {
   return (
@@ -20,15 +22,18 @@ function App() {
         <Menu />
         <Switch>
           <Route path="/about">
+           <Banner/>
             <About/>
             <Smallfeatures/> 
             <Ourservice/>
           </Route>
           <Route path="/contact">
-            <h1>Contact Us</h1>
+            <Banner/>
+            <Contact/>
           </Route>
           <Route path="/">
             <HomeSlider/>
+            <About/>
           </Route>
         </Switch>
         <Footer/>

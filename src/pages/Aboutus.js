@@ -2,6 +2,7 @@ import React, {Component} from "react";
 class Aboutus extends Component{
     render(){
         return <div>
+            <div className="mainSection">
            <div className="container">
             <div className="row">
                 <div className="col-md-7">
@@ -24,6 +25,7 @@ class Aboutus extends Component{
                 </div>
             </div>
            </div>
+        </div>
         </div>
     }
 }

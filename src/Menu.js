@@ -1,8 +1,6 @@
 import React, {Component} from "react";
 import CompanyLogo from "./CompanyLogo";
-import {
-    Link
-  } from "react-router-dom";
+import { NavLink } from "react-router-dom";
   
   
 class Menu extends Component{
@@ -14,9 +12,9 @@ class Menu extends Component{
                     <div className="col-md-10 col-sm-10">
                         <nav className="navigation">
                             <ul>
-                                 <li><Link to="/">Home</Link></li>
-                                 <li><Link to="/about">About Us</Link></li>
-                                 <li><Link to="/contact">Contact us</Link></li>
+                                 <li><NavLink exact to="/" className="main-nav" activeClassName="main-nav-active">Home</NavLink></li>
+                                 <li><NavLink exact to="/about" className="main-nav" activeClassName="main-nav-active">About Us</NavLink></li>
+                                 <li><NavLink exact to="/contact" className="main-nav" activeClassName="main-nav-active">Contact us</NavLink></li>
                             </ul>
                         </nav>
                     </div>

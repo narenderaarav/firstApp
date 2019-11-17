@@ -4,14 +4,12 @@ import Carousel from 'nuka-carousel';
 export default class extends React.Component {
   render() {
     return (
+      <div className="sliderDiv">
       <Carousel>
-        <img src="https://via.placeholder.com/400/ffffff/c0392b/&text=slide1" />
-        <img src="https://via.placeholder.com/400/ffffff/c0392b/&text=slide2" />
-        <img src="https://via.placeholder.com/400/ffffff/c0392b/&text=slide3" />
-        <img src="https://via.placeholder.com/400/ffffff/c0392b/&text=slide4" />
-        <img src="https://via.placeholder.com/400/ffffff/c0392b/&text=slide5" />
-        <img src="https://via.placeholder.com/400/ffffff/c0392b/&text=slide6" />
+        <img src="banner-1.jpg" />
+        <img src="banner-2.jpg" />
       </Carousel>
+      </div>
     );
   }
 }

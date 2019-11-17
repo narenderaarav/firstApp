@@ -1,6 +1,4 @@
-.App {
-  text-align: center;
-}
+
 
 .App-logo {
   height: 40vmin;
@@ -59,9 +57,9 @@ p{font-size: 16px;
   width: 100%;
 }
 
-.features{width: 100%;}
+.features{width: 100%; margin-top: 60px;}
 
-.serviceTxt{width: 100%; text-align: center; padding: 0 200px; position: relative;}
+.serviceTxt{width: 100%; text-align: center; padding: 0 200px; position: relative; margin-top: 60px;}
 .serviceTxt h1{font-size: 30px; color: #000; padding: 0px; margin-bottom: 30px;}
 .serviceTxt h1:before {
   position: absolute;
@@ -74,30 +72,36 @@ p{font-size: 16px;
   top: 50px;}
 
   .serviceBox{width: 100%;}
-  .ourService{width: 100%;
-    border: 2px #fff solid;
-    padding: 15px;transition: 0.3s;
-    text-align: center
-  }
-  .ourService:hover{
-    border: 2px #26cdff solid;
-  }
-  .ourService h2{font-size: 20px;}
+
 
   .header{box-shadow: 0px 4px 9px #ddd;}
-  .navigation{width: 100%; padding-top: 20px;}
+  .navigation{width: 100%; padding-top: 20px; text-align: right}
   .navigation ul{list-style: none; margin-bottom: 0px;}
-  .navigation li{line-height: normal; display: inline-block; font-size: 18px; color: black; padding: 0 15px; font-weight: 600;};
-  .navigation li a{color: black; text-decoration: none;}
+  .navigation li{line-height: normal; display: inline-block; font-size: 18px; padding: 0 15px; font-weight: 600;}
+  .navigation li a{color: black; }
   .companyLogo{width: 70px;}
 
+    .main-nav-active{color: #01438a!important;}
+    .main-nav:hover{color: #0474ec!important;}
+    a{color:inherit;}
 
-  .footer{width: 100%; background: #033d75; padding: 20px 0px;}
+  
+    
+    
+
+  .footer{width: 100%; background: #033d75; padding: 20px 0px; margin-top: 60px;}
   .links{width: 100%;}
   .links h3{font-size: 18px; font-weight: bold; color: #fff;}
   .links ul{list-style: none;}
   .links li{line-height: normal; font-size: 16px; color: #fff; padding-top: 10px;}
+  .links li a{color: #fff; text-decoration: none}
+  .links li a:hover{color: #cae5ff; text-decoration: none}
   .links p{color: #fff;}
+  .mainFoot-nav-active{color: #fff!important;}
+  .mainFoot-nav:hover{color: #cae5ff!important;}
+ 
+
+
 .sidebar{width: 100%; position: relative;}
 .sidebar h3{font-size: 18px; font-weight: bold; color: #fff;}
 .img-holder{width: 160px; float: left;}
@@ -105,3 +109,24 @@ p{font-size: 16px;
 .sidebar ul{list-style: none;}
 .sidebar li{line-height: normal; font-size: 16px; color: #fff; padding-top: 10px;}
 .title-holder{    padding-left: 20px; width: 70%; float: left;}
+.mainSection{width: 100%; margin-top: 80px;}
+.banner{width: 100%;}
+.banner img{min-width: 100%;}
+
+/*--------------Contact-------------*/
+
+.contact{width: 100%; margin-top: 60px;}
+.contactHeading{width: 100%; position: relative; text-align: center}
+.contactHeading h2:before {
+  position: absolute;
+  content: '';
+  background: #26cdff;
+  width: 50px;
+  height: 3px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  margin: 20px auto;
+  top: 40px;}
+
+.contactForm{width: 100%; margin-top: 60px;}
