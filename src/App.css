@@ -104,11 +104,12 @@ p{font-size: 16px;
 
 .sidebar{width: 100%; position: relative;}
 .sidebar h3{font-size: 18px; font-weight: bold; color: #fff;}
-.img-holder{width: 160px; float: left;}
+
    
 .sidebar ul{list-style: none;}
-.sidebar li{line-height: normal; font-size: 16px; color: #fff; padding-top: 10px;}
-.title-holder{    padding-left: 20px; width: 70%; float: left;}
+.sidebar li{line-height: normal; font-size: 16px; color: #fff; padding-top: 10px; float: left;
+ margin-bottom: 10px;}
+
 .mainSection{width: 100%; margin-top: 80px;}
 .banner{width: 100%;}
 .banner img{min-width: 100%;}
@@ -130,3 +131,19 @@ p{font-size: 16px;
   top: 40px;}
 
 .contactForm{width: 100%; margin-top: 60px;}
+.welcome{
+  width: 100%;  
+  text-align: center; 
+  background: #eee; 
+  padding: 40px; 
+  border:1px rgb(223, 220, 220) solid
+}
+.welcome h4{
+  color: #0474ec;
+  font-size: 30px;
+}
+.welcome h5{
+  padding-bottom: 15px;
+}
+
+

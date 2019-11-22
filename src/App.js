@@ -13,7 +13,9 @@ import CompanyLogo from "./CompanyLogo"
 import HomeSlider from "./HomeSlider";
 import Footer from "./Footer";
 import Banner from "./innerBanner/Banner";
-import Contact from "./pages/Contact"
+import Contact from "./pages/Contact";
+import Practice from "./Practice";
+import Registration from "./pages/Registration"
 
 function App() {
   return (
@@ -30,7 +32,13 @@ function App() {
           <Route path="/contact">
             <Banner/>
             <Contact/>
+            <Practice/>
           </Route>
+          <Route path="/registration">
+            <Banner/>
+            <Registration/>
+          </Route>
+
           <Route path="/">
             <HomeSlider/>
             <About/>

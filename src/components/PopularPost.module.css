@@ -1,0 +1,13 @@
+.Img {
+    width: 160px;
+    float: left;
+}
+.Title{    
+    padding-left: 20px; 
+    width: 70%; 
+    float: left;
+}
+
+.Title p{
+     margin: 0px;
+    }
