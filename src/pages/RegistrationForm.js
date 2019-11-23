@@ -1,5 +1,4 @@
 import React, {Component} from "react";
-import Welcome from "./Welcome"
 export default class RegiForm extends Component {
     constructor(props){
         super(props)
@@ -21,8 +20,8 @@ export default class RegiForm extends Component {
             User Name: ${this.state.fullname} 
             Email Id: ${this.state.email}
             Password: ${this.state.password}
-            Retype Password: ${this.state.repassword}
-        `)
+            Retype Password: ${this.state.repassword}`
+        )
     }
 
     render(){
@@ -68,7 +67,7 @@ export default class RegiForm extends Component {
                 </div>
             </div>
         </div>
-        <Welcome/>
+        
     </form>
     }
 }

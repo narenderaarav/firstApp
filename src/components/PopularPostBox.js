@@ -3,7 +3,7 @@ import classes from "./PopularPost.module.css";
 
 export default (props) => {
     return ( <div><div className={classes.Img}>
-                 <span>{props.popularImage}</span>
+                 <img src={process.env.PUBLIC_URL + props.popularImage}/>
             </div>
             <div className={classes.Title}>
                 <p>{props.paragraph}</p>

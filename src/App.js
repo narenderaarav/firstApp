@@ -15,7 +15,8 @@ import Footer from "./Footer";
 import Banner from "./innerBanner/Banner";
 import Contact from "./pages/Contact";
 import Practice from "./Practice";
-import Registration from "./pages/Registration"
+import Registration from "./pages/Registration";
+import Welcome from "./pages/Welcome"
 
 function App() {
   return (
@@ -37,6 +38,9 @@ function App() {
           <Route path="/registration">
             <Banner/>
             <Registration/>
+          </Route>
+          <Route path="/">
+            <Welcome/>     
           </Route>
 
           <Route path="/">
