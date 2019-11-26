@@ -17,6 +17,7 @@ import Contact from "./pages/Contact";
 import Practice from "./Practice";
 import Registration from "./pages/Registration";
 import Welcome from "./pages/Welcome"
+import { UserForm } from './Formcomponent/UserForm';
 
 function App() {
   return (
@@ -37,12 +38,8 @@ function App() {
           </Route>
           <Route path="/registration">
             <Banner/>
-            <Registration/>
-          </Route>
-          <Route path="/">
-            <Welcome/>     
-          </Route>
-
+            <UserForm/>
+          </Route>          
           <Route path="/">
             <HomeSlider/>
             <About/>
@@ -50,6 +47,7 @@ function App() {
         </Switch>
         <Footer/>
       </Router>
+      
     </div>
   );
 }

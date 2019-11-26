@@ -3,12 +3,22 @@ export default class RegiForm extends Component {
     constructor(props){
         super(props)
         this.state = {
+            step: 1,
             user: null,
             email: null,
             password: null,
             retypepassword: null
         }
+    } 
+
+    // Proceed to next step
+    nextStep = () => {
+        const {step} = this.state;
+        this.setState({
+            step: step + 1
+        });
     }
+
 
     handleChange = (event) => {
         this.setState ( { [event.target.name]: event.target.value } )
