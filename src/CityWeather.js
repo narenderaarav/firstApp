@@ -23,7 +23,7 @@ const cityRenderer = () =>{
         <ul>
             {cities.map(city => {
                 return (
-                    <li>City:<span className="city">{city.city}</span> 
+                    <li>City:<span>{city.city}</span> 
                     <span>Cel: {city.cTemp}</span> 
                     <span>FTem: {city.fTemp}</span>
                     </li>

@@ -10,8 +10,8 @@ class Smallfeatures extends Component {
                      FeatureConfig.map(data => {
                     return(
                         <div className="col-md-4" key={data.id}>
-                        <BlueBox heading={data.heading} />
-                    </div>
+                            <BlueBox heading={data.heading} />
+                        </div>
                     )    
                  })
                 }

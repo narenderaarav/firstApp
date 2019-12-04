@@ -147,3 +147,40 @@ p{font-size: 16px;
 }
 
 
+
+/* item list css */
+
+  .heading4 {width: 100%; 
+    float: left; 
+    font-size: 25px; 
+    font-weight: bold; 
+    text-align: center; 
+    border-bottom: 1px #eee solid;
+     padding-bottom: 10px;
+    }
+	.itemList{
+    width: 100%; 
+    
+  }
+  .row1{
+    width: 100%;
+    display: inline-table;
+    border-bottom: 1px #eee solid;
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+	.column{
+    width: 25%; 
+    float: left; 
+    text-align: center;
+  }
+	.totalSum{
+    width: 100%;
+    text-align: right;
+    font-size: 26px;
+    font-weight: bold;
+    padding-right: 85px;
+  }
+
+  .toamt{padding-right: 20px; color: #0474ec; font-weight: normal; font-size: 20px;}
+  .error{font-size: 13px; color: red}

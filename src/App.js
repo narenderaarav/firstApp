@@ -18,7 +18,8 @@ import Practice from "./Practice";
 import Registration from "./pages/Registration";
 import Welcome from "./pages/Welcome"
 import { UserForm } from './Formcomponent/UserForm';
-
+import ItemRender from './ItemLsit'
+import ItemShow from './NewItemList'
 function App() {
   return (
     <div className="App">
@@ -30,11 +31,12 @@ function App() {
             <About/>
             <Smallfeatures/> 
             <Ourservice/>
+            <ItemRender/>
           </Route>
           <Route path="/contact">
             <Banner/>
             <Contact/>
-            <Practice/>
+            <ItemShow/>
           </Route>
           <Route path="/registration">
             <Banner/>
