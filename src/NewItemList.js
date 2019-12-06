@@ -21,9 +21,13 @@ console.log(orderList);
             <div className="container">
                  <div className="heading4">List Item</div>
                  <div className="itemListOne">
-                   {orderList.map(data =>{
+                   {orderList.itemListing.map(data =>{
                        return(
-                       <div>{data.name}</div>
+                        <div><div className="column">{data.name}</div>
+                            <div className="column">{data.qty}</div>
+                            <div className="column">{data.price}</div>
+                            <div className="column">{data.totalAmt}</div>
+                            </div>
                     )
                 })}
         </div>
